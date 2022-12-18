@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(50, 156, 156);
+    /* background-color: rgb(50, 156, 156); */
+}
+.input-container{
+    width:25rem;
+    height: 30rem;
+    background-color: rgba(243, 237, 237, 0.269);
+    /* border: 1px solid rgb(142, 129, 129); */
+    margin: 80px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius:2px;
+}
+  @media screen and (min-width:510px) {
+    .input-container{
+        margin: 121px 0px 0px 500px;
+    }
+  }
+.sub-input-container{
+    height: 25rem;
+    overflow-y:auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    margin: 20px;
+}
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:80px;
+    background-color: rgb(75, 60, 60);
+    z-index: 1;
+    color:white;
+
+}
+.header .typing{
+    font-size:14px;
+    padding-top:10px;
+    margin-left:10px;
+    color: rgb(20, 243, 243);
+}
+.header p{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+.input-button{
+    background-color: rgb(117, 113, 165);
+    margin-top:auto;
+    height: 50px;
+    position:relative;
+}
+.input-button input{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding:17px;
+    width: 17.3rem;
+    background-color: rgb(221, 213, 213);    
+
+}
+.input-button button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(153, 153, 247);
+    color:white;
+    padding:17px;
+    
+}
+.input-button button:hover{
+    background-color: rgb(54, 54, 134);
+}
+.text-container h1{
+font-size: 17px;
+color:rgb(13, 41, 142);
+padding: 2px;
+padding-left: 7px;
+}
+.text-container{
+  background-color: rgb(211, 211, 198);
+    border-radius:7px;
+    max-width: 220px;
+    margin:2px 0px 10px 5px;
+    padding:5px;
+    border:0.5px solid rgb(237, 137, 237);
+}
